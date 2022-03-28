@@ -1,0 +1,2 @@
+// Delete foreign key constraint
+ALTER TABLE beds DROP FOREIGN KEY beds_ibfk_1;

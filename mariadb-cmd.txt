@@ -1,0 +1,4 @@
+// Start mariadb server instance on docker 
+// See: https://hub.docker.com/_/mariadb
+docker run --detach --name sample-mariadb --env MARIADB_USER=sample-user --env MARIADB_PASSWORD=sample-password --env MARIADB_ROOT_PASSWORD=root-password 
+mariadb:10.8-rc
