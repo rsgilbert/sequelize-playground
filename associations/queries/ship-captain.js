@@ -2,6 +2,7 @@ import sequelize from "../../seq.js";
 import { DataTypes } from "@sequelize/core";
 import { arrayJson } from "../../util.js";
 
+
 const Ship = sequelize.define('ship', {
     name: DataTypes.TEXT,
     crewCapacity: DataTypes.INTEGER,
